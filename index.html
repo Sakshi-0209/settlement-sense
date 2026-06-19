@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Settlement Sense | AI-Native Healthcare Operations Platform</title>
+  <meta name="description" content="AI-powered healthcare operations platform for patient management, revenue cycle, claims intelligence, billing automation, and workflow orchestration." />
+  <meta name="keywords" content="AI healthcare operations, patient management system, revenue cycle management, claims intelligence, hospital automation, billing automation" />
+  <meta property="og:title" content="Settlement Sense | AI-Native Healthcare Operations" />
+  <meta property="og:description" content="Automate patient journeys, prescriptions, claims, and revenue workflows with intelligent AI agents." />
+  <meta property="og:image" content="https://settlementsense.in/logo_ss.png" />
+  <meta property="og:url" content="https://settlementsense.in" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="canonical" href="https://settlementsense.in" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════════
+       NAVIGATION
+  ══════════════════════════════════════════ -->
+  <header class="nav-header" id="nav-header">
+    <nav class="nav-container">
+      <a href="/" class="nav-logo" aria-label="Settlement Sense Home">
+        <svg class="logo-icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect width="36" height="36" rx="8" fill="#1E6FFF"/>
+          <path d="M6 18 L10 12 L14 20 L18 8 L22 22 L26 16 L30 18" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+          <circle cx="18" cy="8" r="2" fill="#00C2B8"/>
+        </svg>
+        <span class="logo-text">Settlement Sense</span>
+      </a>
+
+      <ul class="nav-links" role="list">
+        <li class="nav-dropdown">
+          <button class="nav-link nav-link--dropdown" aria-expanded="false" aria-haspopup="true">
+            Solutions <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 4L6 8L10 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="dropdown-panel" role="menu">
+            <a href="#pms" class="dropdown-item" role="menuitem">
+              <span class="dropdown-icon">🏥</span>
+              <span>
+                <strong>AI Patient Management</strong>
+                <small>Voice, scheduling, queue, prescriptions</small>
+              </span>
+            </a>
+            <a href="#rcm" class="dropdown-item" role="menuitem">
+              <span class="dropdown-icon">💰</span>
+              <span>
+                <strong>Revenue Cycle Management</strong>
+                <small>Claims, eligibility, denials, reconciliation</small>
+              </span>
+            </a>
+            <a href="#claims" class="dropdown-item" role="menuitem">
+              <span class="dropdown-icon">🔍</span>
+              <span>
+                <strong>Claims Intelligence</strong>
+                <small>Coding support, anomaly detection, denial prediction</small>
+              </span>
+            </a>
+            <a href="#billing" class="dropdown-item" role="menuitem">
+              <span class="dropdown-icon">📊</span>
+              <span>
+                <strong>Billing Automation</strong>
+                <small>Auto-billing, invoicing, payment workflows</small>
+              </span>
+            </a>
+          </div>
+        </li>
+        <li><a href="#products" class="nav-link">Products</a></li>
+        <li><a href="#workflow" class="nav-link">How It Works</a></li>
+        <li><a href="#roi" class="nav-link">ROI</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="https://www.linkedin.com/company/settlement-sense/" class="nav-social" aria-label="LinkedIn" target="_blank" rel="noopener">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+        <a href="#contact" class="btn btn--ghost btn--sm">Talk to Sales</a>
+        <a href="#contact" class="btn btn--primary btn--sm">Book Demo</a>
+      </div>
+
+      <button class="nav-hamburger" id="nav-hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+      <a href="#pms" class="mobile-link">AI Patient Management</a>
+      <a href="#rcm" class="mobile-link">Revenue Cycle Management</a>
+      <a href="#claims" class="mobile-link">Claims Intelligence</a>
+      <a href="#billing" class="mobile-link">Billing Automation</a>
+      <a href="#workflow" class="mobile-link">How It Works</a>
+      <a href="#roi" class="mobile-link">ROI Calculator</a>
+      <a href="#contact" class="mobile-link">Contact</a>
+      <div class="mobile-ctas">
+        <a href="#contact" class="btn btn--ghost">Talk to Sales</a>
+        <a href="#contact" class="btn btn--primary">Book Demo</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ══════════════════════════════════════════
+         HERO
+    ══════════════════════════════════════════ -->
+    <section class="hero" aria-label="Hero">
+      <div class="hero-bg">
+        <div class="hero-grid-lines" aria-hidden="true"></div>
+        <div class="hero-orb hero-orb--1" aria-hidden="true"></div>
+        <div class="hero-orb hero-orb--2" aria-hidden="true"></div>
+      </div>
+
+      <div class="hero-container">
+        <div class="hero-content">
+          <div class="hero-eyebrow reveal-up">
+            <span class="pulse-dot" aria-hidden="true"></span>
+            AI-Native Healthcare Operations · Built for India
+          </div>
+
+          <h1 class="hero-headline reveal-up reveal-up--delay-1">
+            The AI Operating System<br/>
+            <span class="headline-gradient">for Modern Healthcare</span>
+          </h1>
+
+          <p class="hero-subheadline reveal-up reveal-up--delay-2">
+            Automate patient intake, prescriptions, billing, claims, and revenue cycles — 
+            with one intelligent platform that works across every hospital workflow.
+          </p>
+
+          <div class="hero-ctas reveal-up reveal-up--delay-3">
+            <a href="#contact" class="btn btn--primary btn--lg">
+              Book Enterprise Demo
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <a href="#workflow" class="btn btn--ghost btn--lg">
+              See How It Works
+            </a>
+          </div>
+
+          <div class="hero-trust reveal-up reveal-up--delay-4">
+            <span class="trust-item">
+              <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M8 1L10 6H15L11 9.5L12.5 15L8 11.5L3.5 15L5 9.5L1 6H6L8 1Z" fill="#00C2B8"/></svg>
+              HIPAA-Inspired Architecture
+            </span>
+            <span class="trust-divider" aria-hidden="true">·</span>
+            <span class="trust-item">
+              <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M8 1L10 6H15L11 9.5L12.5 15L8 11.5L3.5 15L5 9.5L1 6H6L8 1Z" fill="#00C2B8"/></svg>
+              Encrypted Patient Data
+            </span>
+            <span class="trust-divider" aria-hidden="true">·</span>
+            <span class="trust-item">
+              <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M8 1L10 6H15L11 9.5L12.5 15L8 11.5L3.5 15L5 9.5L1 6H6L8 1Z" fill="#00C2B8"/></svg>
+              Enterprise SLA
+            </span>
+          </div>
+        </div>
+
+        <!-- Command Center Dashboard -->
+        <div class="hero-dashboard reveal-right" aria-label="AI Command Center preview">
+          <div class="dashboard-chrome">
+            <div class="chrome-bar">
+              <div class="chrome-dots" aria-hidden="true">
+                <span></span><span></span><span></span>
+              </div>
+              <span class="chrome-title">Settlement Sense Command Center</span>
+              <span class="live-badge">
+                <span class="pulse-dot pulse-dot--sm" aria-hidden="true"></span>
+                Live
+              </span>
+            </div>
+
+            <!-- ECG Line -->
+            <div class="ecg-container" aria-hidden="true">
+              <svg class="ecg-line" viewBox="0 0 600 60" preserveAspectRatio="none">
+                <path class="ecg-path" d="M0,30 L50,30 L60,30 L70,10 L80,50 L90,5 L100,55 L110,30 L160,30 L200,30 L210,30 L220,15 L230,45 L240,8 L250,52 L260,30 L310,30 L350,30 L360,30 L370,12 L380,48 L390,6 L400,54 L410,30 L460,30 L500,30 L510,30 L520,14 L530,46 L540,7 L550,53 L560,30 L600,30" stroke="#00C2B8" stroke-width="1.5" fill="none"/>
+              </svg>
+              <span class="ecg-label">98.7% AI Confidence</span>
+            </div>
+
+            <!-- Pipeline Steps -->
+            <div class="pipeline-steps" aria-label="AI workflow pipeline">
+              <div class="pipeline-step pipeline-step--active" data-step="1">
+                <div class="step-icon step-icon--voice">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z" fill="currentColor"/><path d="M19 10v2a7 7 0 0 1-14 0v-2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                </div>
+                <div class="step-content">
+                  <span class="step-label">AI Voice</span>
+                  <span class="step-status">Answering call</span>
+                </div>
+                <span class="step-check" aria-label="Complete">✓</span>
+              </div>
+
+              <div class="pipeline-connector" aria-hidden="true"></div>
+
+              <div class="pipeline-step" data-step="2">
+                <div class="step-icon step-icon--schedule">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="18" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M16 2v4M8 2v4M3 10h18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                </div>
+                <div class="step-content">
+                  <span class="step-label">Schedule</span>
+                  <span class="step-status">Appointment set</span>
+                </div>
+                <span class="step-check" aria-label="Complete">✓</span>
+              </div>
+
+              <div class="pipeline-connector" aria-hidden="true"></div>
+
+              <div class="pipeline-step" data-step="3">
+                <div class="step-icon step-icon--rx">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2" stroke="currentColor" stroke-width="1.5"/><rect x="9" y="3" width="6" height="4" rx="1" stroke="currentColor" stroke-width="1.5"/></svg>
+                </div>
+                <div class="step-content">
+                  <span class="step-label">Rx Generated</span>
+                  <span class="step-status">AI prescription</span>
+                </div>
+                <span class="step-spinner" aria-label="Processing" aria-hidden="true"></span>
+              </div>
+
+              <div class="pipeline-connector" aria-hidden="true"></div>
+
+              <div class="pipeline-step pipeline-step--pending" data-step="4">
+                <div class="step-icon step-icon--claims">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8l-6-6z" stroke="currentColor" stroke-width="1.5"/><path d="M14 2v6h6" stroke="currentColor" stroke-width="1.5"/></svg>
+                </div>
+                <div class="step-content">
+                  <span class="step-label">Claims Filed</span>
+                  <span class="step-status">Pending settlement</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- KPI Row -->
+            <div class="dashboard-kpis" aria-label="Key performance indicators">
+              <div class="kpi-card">
+                <span class="kpi-value" data-target="86">0</span><span class="kpi-unit">%</span>
+                <span class="kpi-label">Clean Claims</span>
+                <div class="kpi-bar"><div class="kpi-fill" style="--fill:86%"></div></div>
+              </div>
+              <div class="kpi-card">
+                <span class="kpi-value" data-target="90">0</span><span class="kpi-unit">%</span>
+                <span class="kpi-label">Eligibility Verified</span>
+                <div class="kpi-bar"><div class="kpi-fill" style="--fill:90%"></div></div>
+              </div>
+              <div class="kpi-card">
+                <span class="kpi-value" data-target="94">0</span><span class="kpi-unit">%</span>
+                <span class="kpi-label">Denial Risk Reduced</span>
+                <div class="kpi-bar"><div class="kpi-fill" style="--fill:94%"></div></div>
+              </div>
+            </div>
+
+            <!-- Revenue Sparkline -->
+            <div class="revenue-strip" aria-hidden="true">
+              <span class="revenue-label">Revenue Tracked</span>
+              <svg class="sparkline" viewBox="0 0 200 40" preserveAspectRatio="none">
+                <defs>
+                  <linearGradient id="sparkGrad" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0%" stop-color="#1E6FFF" stop-opacity="0.4"/>
+                    <stop offset="100%" stop-color="#1E6FFF" stop-opacity="0"/>
+                  </linearGradient>
+                </defs>
+                <path d="M0,35 L20,28 L40,30 L60,22 L80,18 L100,20 L120,12 L140,14 L160,8 L180,6 L200,4 L200,40 L0,40 Z" fill="url(#sparkGrad)"/>
+                <path d="M0,35 L20,28 L40,30 L60,22 L80,18 L100,20 L120,12 L140,14 L160,8 L180,6 L200,4" stroke="#1E6FFF" stroke-width="1.5" fill="none"/>
+              </svg>
+              <span class="revenue-value">₹1.8M tracked</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         TRUST BAR
+    ══════════════════════════════════════════ -->
+    <section class="trust-bar" aria-label="Platform capabilities">
+      <div class="trust-bar-container">
+        <div class="trust-stat reveal-up">
+          <span class="trust-stat-num" data-target="40">0</span><span class="trust-stat-suffix">%</span>
+          <span class="trust-stat-label">Faster Claims Processing</span>
+        </div>
+        <div class="trust-divider-v" aria-hidden="true"></div>
+        <div class="trust-stat reveal-up reveal-up--delay-1">
+          <span class="trust-stat-num" data-target="60">0</span><span class="trust-stat-suffix">%</span>
+          <span class="trust-stat-label">Lower Admin Workload</span>
+        </div>
+        <div class="trust-divider-v" aria-hidden="true"></div>
+        <div class="trust-stat reveal-up reveal-up--delay-2">
+          <span class="trust-stat-num" data-target="24">0</span><span class="trust-stat-suffix">/7</span>
+          <span class="trust-stat-label">AI Patient Support</span>
+        </div>
+        <div class="trust-divider-v" aria-hidden="true"></div>
+        <div class="trust-stat reveal-up reveal-up--delay-3">
+          <span class="trust-stat-num" data-target="3">0</span><span class="trust-stat-suffix">x</span>
+          <span class="trust-stat-label">Faster Patient Turnaround</span>
+        </div>
+        <div class="trust-divider-v" aria-hidden="true"></div>
+        <div class="trust-stat reveal-up reveal-up--delay-4">
+          <span class="trust-stat-num" data-target="98">0</span><span class="trust-stat-suffix">%</span>
+          <span class="trust-stat-label">Revenue Visibility</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         PRODUCTS
+    ══════════════════════════════════════════ -->
+    <section class="section products-section" id="products" aria-labelledby="products-heading">
+      <div class="section-container">
+        <div class="section-header reveal-up">
+          <span class="section-eyebrow">Product Suite</span>
+          <h2 class="section-heading" id="products-heading">One AI layer for every<br/>healthcare workflow</h2>
+          <p class="section-subheading">Settlement Sense connects work that normally lives across phone calls, front desks, doctor notes, payor portals, and finance queues.</p>
+        </div>
+
+        <div class="products-grid">
+
+          <!-- PMS -->
+          <article class="product-card product-card--featured reveal-up" id="pms" aria-labelledby="pms-heading">
+            <div class="product-card-header">
+              <div class="product-icon product-icon--blue">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z" fill="currentColor"/><path d="M19 10v2a7 7 0 0 1-14 0v-2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+              </div>
+              <span class="product-badge">AI-Powered</span>
+            </div>
+            <h3 class="product-heading" id="pms-heading">AI Patient Management System</h3>
+            <p class="product-desc">A front-desk operating layer that answers, books, routes, checks in, and follows up with patients — around the clock, without additional staff.</p>
+            <ul class="product-features" aria-label="Features">
+              <li>AI Voice Receptionist</li>
+              <li>Smart Appointment Booking</li>
+              <li>Queue Management</li>
+              <li>AI Prescription Generator</li>
+              <li>Multilingual Patient Interaction</li>
+              <li>Follow-up Automation</li>
+            </ul>
+            <div class="product-outcome">
+              <span class="outcome-label">Business Outcome</span>
+              <span class="outcome-value">3× faster patient throughput with zero additional front-desk headcount</span>
+            </div>
+            <a href="#contact" class="btn btn--primary btn--sm product-cta">Request Demo →</a>
+          </article>
+
+          <!-- RCM -->
+          <article class="product-card reveal-up reveal-up--delay-1" id="rcm" aria-labelledby="rcm-heading">
+            <div class="product-card-header">
+              <div class="product-icon product-icon--teal">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" stroke="currentColor" stroke-width="1.5"/><path d="M12 6v6l4 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+              </div>
+              <span class="product-badge product-badge--teal">Revenue</span>
+            </div>
+            <h3 class="product-heading" id="rcm-heading">AI Revenue Cycle Management</h3>
+            <p class="product-desc">Claims, authorizations, eligibility, denials, and reconciliation — orchestrated through an intelligent revenue workflow that doesn't miss a rupee.</p>
+            <ul class="product-features" aria-label="Features">
+              <li>AI Claim Filing</li>
+              <li>Pre-Authorization Automation</li>
+              <li>Insurance Eligibility Verification</li>
+              <li>Denial Management</li>
+              <li>Payment Reconciliation</li>
+            </ul>
+            <div class="product-outcome">
+              <span class="outcome-label">Business Outcome</span>
+              <span class="outcome-value">40% faster settlements, 94% reduction in denial risk</span>
+            </div>
+            <a href="#contact" class="btn btn--outline btn--sm product-cta">Request Demo →</a>
+          </article>
+
+          <!-- Claims -->
+          <article class="product-card reveal-up reveal-up--delay-2" id="claims" aria-labelledby="claims-heading">
+            <div class="product-card-header">
+              <div class="product-icon product-icon--gold">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="8" stroke="currentColor" stroke-width="1.5"/><path d="M21 21l-4.35-4.35" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+              </div>
+              <span class="product-badge product-badge--gold">Intelligence</span>
+            </div>
+            <h3 class="product-heading" id="claims-heading">Claims Intelligence Engine</h3>
+            <p class="product-desc">Decision intelligence for documentation quality, ICD/CPT coding support, anomaly detection, and denial prediction — before a claim is ever submitted.</p>
+            <ul class="product-features" aria-label="Features">
+              <li>Smart Documentation Extraction</li>
+              <li>ICD/CPT Coding Assistance</li>
+              <li>Claim Anomaly Detection</li>
+              <li>Denial Prediction Engine</li>
+              <li>Claims Decision Intelligence</li>
+            </ul>
+            <div class="product-outcome">
+              <span class="outcome-label">Business Outcome</span>
+              <span class="outcome-value">86% clean claim rate on first submission</span>
+            </div>
+            <a href="#contact" class="btn btn--outline btn--sm product-cta">Request Demo →</a>
+          </article>
+
+          <!-- Billing -->
+          <article class="product-card reveal-up reveal-up--delay-3" id="billing" aria-labelledby="billing-heading">
+            <div class="product-card-header">
+              <div class="product-icon product-icon--purple">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="2" y="5" width="20" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M2 10h20" stroke="currentColor" stroke-width="1.5"/></svg>
+              </div>
+              <span class="product-badge product-badge--purple">Automation</span>
+            </div>
+            <h3 class="product-heading" id="billing-heading">Billing Automation</h3>
+            <p class="product-desc">Auto-generate patient bills, manage line items, apply GST, handle UPI/cash/card payments, and produce audit-ready invoices — without manual entry.</p>
+            <ul class="product-features" aria-label="Features">
+              <li>Auto Bill Generation</li>
+              <li>GST / Tax Compliance</li>
+              <li>Multi-mode Payments (UPI, Card, Cash)</li>
+              <li>PDF Invoice Generation</li>
+              <li>Partial & Split Payments</li>
+            </ul>
+            <div class="product-outcome">
+              <span class="outcome-label">Business Outcome</span>
+              <span class="outcome-value">Zero billing errors, full payment traceability</span>
+            </div>
+            <a href="#contact" class="btn btn--outline btn--sm product-cta">Request Demo →</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         WHO WE SERVE
+    ══════════════════════════════════════════ -->
+    <section class="section serve-section" aria-labelledby="serve-heading">
+      <div class="section-container">
+        <div class="section-header reveal-up">
+          <span class="section-eyebrow">Who We Serve</span>
+          <h2 class="section-heading" id="serve-heading">Built for every layer<br/>of modern healthcare</h2>
+        </div>
+
+        <div class="serve-grid">
+          <article class="serve-card reveal-up" aria-labelledby="serve-hospitals">
+            <div class="serve-icon">🏥</div>
+            <h3 class="serve-title" id="serve-hospitals">Hospitals</h3>
+            <p class="serve-pain"><strong>Challenge:</strong> High claim rejection rates, manual billing errors, and fragmented patient data across departments.</p>
+            <p class="serve-solution"><strong>Solution:</strong> End-to-end AI automation across intake, OPD, IPD billing, and insurance settlement.</p>
+            <div class="serve-outcome">Faster settlements · Lower admin cost · Zero data gaps</div>
+          </article>
+
+          <article class="serve-card reveal-up reveal-up--delay-1" aria-labelledby="serve-clinics">
+            <div class="serve-icon">🩺</div>
+            <h3 class="serve-title" id="serve-clinics">Clinics</h3>
+            <p class="serve-pain"><strong>Challenge:</strong> Small teams overwhelmed by calls, appointment gaps, and manual follow-ups.</p>
+            <p class="serve-solution"><strong>Solution:</strong> AI voice receptionist and patient engagement that keeps small teams organized 24/7.</p>
+            <div class="serve-outcome">3× more appointments handled · Zero missed follow-ups</div>
+          </article>
+
+          <article class="serve-card reveal-up reveal-up--delay-2" aria-labelledby="serve-diagnostic">
+            <div class="serve-icon">🔬</div>
+            <h3 class="serve-title" id="serve-diagnostic">Diagnostic Centers</h3>
+            <p class="serve-pain"><strong>Challenge:</strong> Complex lab billing, insurance pre-auth delays, and slow result delivery.</p>
+            <p class="serve-solution"><strong>Solution:</strong> Automated billing, pre-authorization workflows, and integrated lab report delivery.</p>
+            <div class="serve-outcome">Faster report cycles · Accurate billing · Fewer rejections</div>
+          </article>
+
+          <article class="serve-card reveal-up reveal-up--delay-3" aria-labelledby="serve-rcm">
+            <div class="serve-icon">💹</div>
+            <h3 class="serve-title" id="serve-rcm">Revenue Teams</h3>
+            <p class="serve-pain"><strong>Challenge:</strong> Invisible denial patterns, slow payment cycles, and no real-time revenue visibility.</p>
+            <p class="serve-solution"><strong>Solution:</strong> Predictive denial intelligence, real-time claims tracking, and reconciliation automation.</p>
+            <div class="serve-outcome">94% denial risk reduction · Full revenue transparency</div>
+          </article>
+
+          <article class="serve-card reveal-up reveal-up--delay-4" aria-labelledby="serve-chains">
+            <div class="serve-icon">🏢</div>
+            <h3 class="serve-title" id="serve-chains">Healthcare Chains</h3>
+            <p class="serve-pain"><strong>Challenge:</strong> Inconsistent operations across multiple facilities with no unified data layer.</p>
+            <p class="serve-solution"><strong>Solution:</strong> Centralized operations dashboard with multi-facility billing, claims, and analytics.</p>
+            <div class="serve-outcome">One platform for all facilities · Unified reporting</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         WORKFLOW VISUALIZATION
+    ══════════════════════════════════════════ -->
+    <section class="section workflow-section" id="workflow" aria-labelledby="workflow-heading">
+      <div class="section-container">
+        <div class="section-header reveal-up">
+          <span class="section-eyebrow">How It Works</span>
+          <h2 class="section-heading" id="workflow-heading">From first call to<br/>final settlement — automated</h2>
+          <p class="section-subheading">A continuous AI workflow connects every step in the patient journey and revenue cycle.</p>
+        </div>
+
+        <div class="workflow-track" aria-label="AI workflow steps" role="list">
+          <div class="workflow-step reveal-up" role="listitem">
+            <div class="workflow-step-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z" fill="currentColor"/><path d="M19 10v2a7 7 0 0 1-14 0v-2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </div>
+            <div class="workflow-step-num">01</div>
+            <h4 class="workflow-step-title">Patient Call</h4>
+            <p class="workflow-step-desc">AI voice agent answers, identifies, and routes the patient in their preferred language.</p>
+          </div>
+          <div class="workflow-arrow" aria-hidden="true"></div>
+
+          <div class="workflow-step reveal-up reveal-up--delay-1" role="listitem">
+            <div class="workflow-step-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="18" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M16 2v4M8 2v4M3 10h18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </div>
+            <div class="workflow-step-num">02</div>
+            <h4 class="workflow-step-title">Appointment Booked</h4>
+            <p class="workflow-step-desc">Slot confirmed, patient registered, EHR record created automatically.</p>
+          </div>
+          <div class="workflow-arrow" aria-hidden="true"></div>
+
+          <div class="workflow-step reveal-up reveal-up--delay-2" role="listitem">
+            <div class="workflow-step-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2" stroke="currentColor" stroke-width="1.5"/><rect x="9" y="3" width="6" height="4" rx="1" stroke="currentColor" stroke-width="1.5"/><path d="M9 14l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </div>
+            <div class="workflow-step-num">03</div>
+            <h4 class="workflow-step-title">Consultation & Rx</h4>
+            <p class="workflow-step-desc">AI clinical copilot assists with notes, ICD codes, and prescription generation.</p>
+          </div>
+          <div class="workflow-arrow" aria-hidden="true"></div>
+
+          <div class="workflow-step reveal-up reveal-up--delay-3" role="listitem">
+            <div class="workflow-step-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><rect x="2" y="5" width="20" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M2 10h20" stroke="currentColor" stroke-width="1.5"/></svg>
+            </div>
+            <div class="workflow-step-num">04</div>
+            <h4 class="workflow-step-title">Billing Generated</h4>
+            <p class="workflow-step-desc">Patient bill auto-created with line items, GST applied, and payment collected.</p>
+          </div>
+          <div class="workflow-arrow" aria-hidden="true"></div>
+
+          <div class="workflow-step reveal-up reveal-up--delay-4" role="listitem">
+            <div class="workflow-step-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8l-6-6z" stroke="currentColor" stroke-width="1.5"/><path d="M14 2v6h6M9 13h6M9 17h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </div>
+            <div class="workflow-step-num">05</div>
+            <h4 class="workflow-step-title">Claim Filed</h4>
+            <p class="workflow-step-desc">AI scrubs claim for errors, verifies eligibility, and submits to insurer automatically.</p>
+          </div>
+          <div class="workflow-arrow" aria-hidden="true"></div>
+
+          <div class="workflow-step reveal-up reveal-up--delay-5" role="listitem">
+            <div class="workflow-step-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><polyline points="16 7 22 7 22 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </div>
+            <div class="workflow-step-num">06</div>
+            <h4 class="workflow-step-title">Revenue Settled</h4>
+            <p class="workflow-step-desc">Payment reconciled, revenue dashboard updated, and denials resolved intelligently.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         ROI CALCULATOR
+    ══════════════════════════════════════════ -->
+    <section class="section roi-section" id="roi" aria-labelledby="roi-heading">
+      <div class="section-container">
+        <div class="roi-layout">
+          <div class="roi-intro reveal-up">
+            <span class="section-eyebrow">ROI Calculator</span>
+            <h2 class="section-heading" id="roi-heading">See your<br/>potential savings</h2>
+            <p class="section-subheading">Estimate the revenue recovery, cost savings, and time savings Settlement Sense could generate for your facility.</p>
+            <div class="roi-disclaimer">Estimates based on industry benchmarks. Actual results vary by facility type and size.</div>
+          </div>
+
+          <div class="roi-calculator reveal-right" aria-label="ROI Calculator">
+            <div class="calc-inputs">
+              <div class="calc-field">
+                <label for="monthly-patients" class="calc-label">Monthly Patients</label>
+                <div class="calc-input-wrapper">
+                  <input type="range" id="monthly-patients" class="calc-slider" min="100" max="10000" value="1000" step="100" aria-describedby="monthly-patients-val"/>
+                  <div class="calc-value-row">
+                    <span class="calc-min">100</span>
+                    <span class="calc-current" id="monthly-patients-val">1,000</span>
+                    <span class="calc-max">10,000</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="calc-field">
+                <label for="monthly-claims" class="calc-label">Monthly Claims</label>
+                <div class="calc-input-wrapper">
+                  <input type="range" id="monthly-claims" class="calc-slider" min="50" max="5000" value="500" step="50" aria-describedby="monthly-claims-val"/>
+                  <div class="calc-value-row">
+                    <span class="calc-min">50</span>
+                    <span class="calc-current" id="monthly-claims-val">500</span>
+                    <span class="calc-max">5,000</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="calc-field">
+                <label for="avg-revenue" class="calc-label">Avg Revenue per Patient (₹)</label>
+                <div class="calc-input-wrapper">
+                  <input type="range" id="avg-revenue" class="calc-slider" min="500" max="20000" value="3000" step="500" aria-describedby="avg-revenue-val"/>
+                  <div class="calc-value-row">
+                    <span class="calc-min">₹500</span>
+                    <span class="calc-current" id="avg-revenue-val">₹3,000</span>
+                    <span class="calc-max">₹20,000</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="calc-outputs" aria-live="polite" aria-label="Estimated savings">
+              <div class="calc-output-card">
+                <span class="calc-output-icon">💰</span>
+                <span class="calc-output-label">Monthly Revenue Recovery</span>
+                <span class="calc-output-value" id="revenue-recovery">₹0</span>
+              </div>
+              <div class="calc-output-card">
+                <span class="calc-output-icon">⚡</span>
+                <span class="calc-output-label">Monthly Cost Savings</span>
+                <span class="calc-output-value" id="cost-savings">₹0</span>
+              </div>
+              <div class="calc-output-card">
+                <span class="calc-output-icon">⏱️</span>
+                <span class="calc-output-label">Staff Hours Saved / Month</span>
+                <span class="calc-output-value" id="time-saved">0 hrs</span>
+              </div>
+            </div>
+
+            <a href="#contact" class="btn btn--primary calc-cta">Get Detailed ROI Report →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         SECURITY / TRUST
+    ══════════════════════════════════════════ -->
+    <section class="section security-section" aria-labelledby="security-heading">
+      <div class="section-container">
+        <div class="section-header reveal-up">
+          <span class="section-eyebrow">Enterprise Security</span>
+          <h2 class="section-heading" id="security-heading">Compliance-ready architecture<br/>for sensitive healthcare data</h2>
+          <p class="section-subheading">Built with enterprise-grade security patterns for healthcare deployments that handle sensitive patient and financial data.</p>
+        </div>
+
+        <div class="security-grid">
+          <div class="security-card reveal-up">
+            <div class="security-icon">🔒</div>
+            <h4>Encrypted Patient Data</h4>
+            <p>End-to-end encryption for all patient records, financial data, and clinical documentation.</p>
+          </div>
+          <div class="security-card reveal-up reveal-up--delay-1">
+            <div class="security-icon">🔑</div>
+            <h4>Role-Based Access Control</h4>
+            <p>Granular permission management for billing staff, clinical teams, pharmacy, and administrators.</p>
+          </div>
+          <div class="security-card reveal-up reveal-up--delay-2">
+            <div class="security-icon">📋</div>
+            <h4>Full Audit Logs</h4>
+            <p>Immutable audit trails for every data access, billing action, and system event.</p>
+          </div>
+          <div class="security-card reveal-up reveal-up--delay-3">
+            <div class="security-icon">🌐</div>
+            <h4>Secure API Architecture</h4>
+            <p>All integrations with EHR, insurance, and payment systems use secured, authenticated APIs.</p>
+          </div>
+          <div class="security-card reveal-up reveal-up--delay-4">
+            <div class="security-icon">🏗️</div>
+            <h4>HIPAA-Inspired Controls</h4>
+            <p>Governance patterns, data residency controls, and privacy workflows aligned to healthcare standards.</p>
+          </div>
+          <div class="security-card reveal-up reveal-up--delay-5">
+            <div class="security-icon">⚙️</div>
+            <h4>Enterprise Deployment</h4>
+            <p>Dedicated environments, SLA-backed uptime, and on-premise or cloud deployment options.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         INTEGRATIONS
+    ══════════════════════════════════════════ -->
+    <section class="section integrations-section" aria-labelledby="integrations-heading">
+      <div class="section-container">
+        <div class="section-header reveal-up">
+          <span class="section-eyebrow">Integrations</span>
+          <h2 class="section-heading" id="integrations-heading">Connects to your<br/>existing healthcare stack</h2>
+        </div>
+
+        <div class="integrations-grid" aria-label="Integration categories">
+          <div class="integration-pill reveal-up"><span>🏥</span> EHR / EMR Systems</div>
+          <div class="integration-pill reveal-up reveal-up--delay-1"><span>🛡️</span> Insurance APIs</div>
+          <div class="integration-pill reveal-up reveal-up--delay-2"><span>💳</span> Payment Gateways</div>
+          <div class="integration-pill reveal-up reveal-up--delay-3"><span>💊</span> Pharmacy Systems</div>
+          <div class="integration-pill reveal-up reveal-up--delay-4"><span>🔬</span> Lab Systems</div>
+          <div class="integration-pill reveal-up reveal-up--delay-5"><span>📱</span> Telemedicine</div>
+          <div class="integration-pill reveal-up"><span>💬</span> WhatsApp Business</div>
+          <div class="integration-pill reveal-up reveal-up--delay-1"><span>🎙️</span> Voice APIs</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         CTA BANNER
+    ══════════════════════════════════════════ -->
+    <section class="cta-banner" aria-labelledby="cta-heading">
+      <div class="cta-banner-bg" aria-hidden="true">
+        <div class="cta-orb cta-orb--1"></div>
+        <div class="cta-orb cta-orb--2"></div>
+      </div>
+      <div class="cta-banner-container">
+        <h2 class="cta-heading reveal-up" id="cta-heading">Transform your hospital operations with AI</h2>
+        <p class="cta-sub reveal-up reveal-up--delay-1">Modern healthcare operations start here. Book a workflow assessment and see Settlement Sense in your environment.</p>
+        <div class="cta-actions reveal-up reveal-up--delay-2">
+          <a href="#contact" class="btn btn--white btn--lg">Book Enterprise Demo</a>
+          <a href="mailto:hello@settlementsense.in" class="btn btn--ghost-white btn--lg">Email Us</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         CONTACT
+    ══════════════════════════════════════════ -->
+    <section class="section contact-section" id="contact" aria-labelledby="contact-heading">
+      <div class="section-container">
+        <div class="contact-layout">
+          <div class="contact-info reveal-up">
+            <span class="section-eyebrow">Contact</span>
+            <h2 class="section-heading" id="contact-heading">Ready to modernize<br/>your operations?</h2>
+            <p class="section-subheading">Reach Settlement Sense for demos, pilots, integrations, and enterprise rollout planning.</p>
+
+            <div class="contact-details">
+              <a href="mailto:hello@settlementsense.in" class="contact-detail-item">
+                <span class="contact-detail-icon">✉️</span>
+                <span>hello@settlementsense.in</span>
+              </a>
+              <a href="tel:+919079187620" class="contact-detail-item">
+                <span class="contact-detail-icon">📞</span>
+                <span>+91 90791 87620</span>
+              </a>
+              <div class="contact-detail-item">
+                <span class="contact-detail-icon">⚡</span>
+                <span>Quick response · Workflow assessment included</span>
+              </div>
+            </div>
+
+            <div class="contact-socials">
+              <a href="https://www.linkedin.com/company/settlement-sense/" class="social-btn" target="_blank" rel="noopener" aria-label="LinkedIn">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+                LinkedIn
+              </a>
+              <a href="https://www.instagram.com/settlementsense.in" class="social-btn" target="_blank" rel="noopener" aria-label="Instagram">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                Instagram
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-form-wrap reveal-right">
+            <form class="contact-form" id="contact-form" novalidate aria-label="Demo request form">
+              <h3 class="form-title">Schedule Enterprise Demo</h3>
+
+              <div class="form-row">
+                <div class="form-field">
+                  <label for="f-name" class="form-label">Full Name <span aria-hidden="true">*</span></label>
+                  <input type="text" id="f-name" name="name" class="form-input" placeholder="Dr. Ramesh Kumar" required autocomplete="name" aria-required="true"/>
+                  <span class="form-error" id="f-name-error" role="alert"></span>
+                </div>
+                <div class="form-field">
+                  <label for="f-org" class="form-label">Organization <span aria-hidden="true">*</span></label>
+                  <input type="text" id="f-org" name="organization" class="form-input" placeholder="Apollo Hospitals" required aria-required="true"/>
+                  <span class="form-error" id="f-org-error" role="alert"></span>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-field">
+                  <label for="f-email" class="form-label">Work Email <span aria-hidden="true">*</span></label>
+                  <input type="email" id="f-email" name="email" class="form-input" placeholder="ramesh@apollohospitals.com" required autocomplete="email" aria-required="true"/>
+                  <span class="form-error" id="f-email-error" role="alert"></span>
+                </div>
+                <div class="form-field">
+                  <label for="f-phone" class="form-label">Phone <span aria-hidden="true">*</span></label>
+                  <input type="tel" id="f-phone" name="phone" class="form-input" placeholder="+91 98765 43210" required autocomplete="tel" aria-required="true"/>
+                  <span class="form-error" id="f-phone-error" role="alert"></span>
+                </div>
+              </div>
+
+              <div class="form-field">
+                <label for="f-type" class="form-label">Facility Type</label>
+                <select id="f-type" name="facility_type" class="form-input form-select">
+                  <option value="">Select facility type</option>
+                  <option value="hospital">Hospital (100+ beds)</option>
+                  <option value="hospital-small">Hospital (&lt;100 beds)</option>
+                  <option value="clinic">Clinic / Polyclinic</option>
+                  <option value="diagnostic">Diagnostic Center</option>
+                  <option value="chain">Healthcare Chain</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+
+              <div class="form-field">
+                <label for="f-interest" class="form-label">Primary Interest</label>
+                <select id="f-interest" name="interest" class="form-input form-select">
+                  <option value="">What would you like to explore?</option>
+                  <option value="pms">AI Patient Management</option>
+                  <option value="rcm">Revenue Cycle Management</option>
+                  <option value="claims">Claims Intelligence</option>
+                  <option value="billing">Billing Automation</option>
+                  <option value="full">Full Platform Demo</option>
+                </select>
+              </div>
+
+              <div class="form-field">
+                <label for="f-message" class="form-label">Message</label>
+                <textarea id="f-message" name="message" class="form-input form-textarea" placeholder="Tell us about your current challenges..." rows="3"></textarea>
+              </div>
+
+              <button type="submit" class="btn btn--primary btn--full" id="form-submit">
+                <span id="form-submit-text">Schedule Demo</span>
+                <span id="form-submit-spinner" class="btn-spinner" hidden aria-hidden="true"></span>
+              </button>
+
+              <div class="form-success" id="form-success" hidden role="status" aria-live="polite">
+                <span>✅</span>
+                <div>
+                  <strong>Request received!</strong>
+                  <p>Our team will reach out within one business day to schedule your enterprise demo.</p>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ══════════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════════ -->
+  <footer class="footer" aria-label="Site footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <a href="/" class="nav-logo footer-logo" aria-label="Settlement Sense">
+          <svg class="logo-icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect width="36" height="36" rx="8" fill="#1E6FFF"/>
+            <path d="M6 18 L10 12 L14 20 L18 8 L22 22 L26 16 L30 18" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+            <circle cx="18" cy="8" r="2" fill="#00C2B8"/>
+          </svg>
+          <span class="logo-text">Settlement Sense</span>
+        </a>
+        <p class="footer-tagline">AI-native healthcare operations for providers ready to automate patient, clinical, claims, and revenue workflows.</p>
+        <div class="footer-contact">
+          <a href="mailto:hello@settlementsense.in">hello@settlementsense.in</a>
+          <a href="tel:+919079187620">+91 90791 87620</a>
+        </div>
+      </div>
+
+      <nav class="footer-links" aria-label="Footer navigation">
+        <div class="footer-col">
+          <h4 class="footer-col-heading">Product</h4>
+          <a href="#pms" class="footer-link">AI Patient Management</a>
+          <a href="#rcm" class="footer-link">Revenue Cycle Management</a>
+          <a href="#claims" class="footer-link">Claims Intelligence</a>
+          <a href="#billing" class="footer-link">Billing Automation</a>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-col-heading">Solutions</h4>
+          <a href="#" class="footer-link">For Hospitals</a>
+          <a href="#" class="footer-link">For Clinics</a>
+          <a href="#" class="footer-link">For Diagnostic Centers</a>
+          <a href="#" class="footer-link">For Revenue Teams</a>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-col-heading">Company</h4>
+          <a href="https://www.settlementsense.in/about" class="footer-link">About</a>
+          <a href="https://www.settlementsense.in/careers" class="footer-link">Careers</a>
+          <a href="#contact" class="footer-link">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-col-heading">Connect</h4>
+          <a href="https://www.linkedin.com/company/settlement-sense/" class="footer-link" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://www.instagram.com/settlementsense.in" class="footer-link" target="_blank" rel="noopener">Instagram</a>
+          <a href="mailto:hello@settlementsense.in" class="footer-link">Email</a>
+        </div>
+      </nav>
+    </div>
+
+    <div class="footer-bottom">
+      <p class="footer-copy">© 2025 Settlement Sense. All rights reserved.</p>
+      <div class="footer-bottom-links">
+        <a href="#" class="footer-link-sm">Privacy Policy</a>
+        <a href="#" class="footer-link-sm">Terms of Service</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
